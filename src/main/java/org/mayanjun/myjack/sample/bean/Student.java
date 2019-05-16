@@ -1,12 +1,3 @@
-package org.mayanjun.myjack.sample.bean;
-
-import org.mayanjun.myjack.core.annotation.*;
-import org.mayanjun.myjack.core.entity.DeletableEntity;
-import org.mayanjun.myjack.core.enums.DataType;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 /*
  * Copyright 2016-2018 mayanjun.org
  *
@@ -22,6 +13,14 @@ import java.util.Date;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+package org.mayanjun.myjack.sample.bean;
+import org.mayanjun.myjack.api.annotation.*;
+import org.mayanjun.myjack.api.entity.DeletableEntity;
+import org.mayanjun.myjack.api.enums.DataType;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @Table(comment = "student",
         value = "t_student",

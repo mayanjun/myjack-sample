@@ -17,7 +17,7 @@
 package org.mayanjun.myjack.sample.runner;
 
 import org.apache.commons.lang3.StringUtils;
-import org.mayanjun.myjack.core.annotation.Table;
+import org.mayanjun.myjack.api.annotation.Table;
 import org.mayanjun.myjack.sample.AbstractTestRunner;
 import org.mayanjun.myjack.sample.Runner;
 import org.mayanjun.myjack.sample.RunnerConfig;

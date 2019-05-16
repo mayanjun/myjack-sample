@@ -16,8 +16,8 @@
 
 package org.mayanjun.myjack.sample.bean;
 
-import org.mayanjun.myjack.core.annotation.Column;
-import org.mayanjun.myjack.core.enums.DataType;
+import org.mayanjun.myjack.api.annotation.Column;
+import org.mayanjun.myjack.api.enums.DataType;
 
 public class Contacts {
 

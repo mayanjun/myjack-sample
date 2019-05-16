@@ -16,8 +16,8 @@
 
 package org.mayanjun.myjack.sample.runner;
 
-import org.mayanjun.myjack.core.query.Query;
-import org.mayanjun.myjack.core.query.QueryBuilder;
+import org.mayanjun.myjack.api.query.Query;
+import org.mayanjun.myjack.api.query.QueryBuilder;
 import org.mayanjun.myjack.sample.AbstractTestRunner;
 import org.mayanjun.myjack.sample.Runner;
 import org.mayanjun.myjack.sample.RunnerConfig;
