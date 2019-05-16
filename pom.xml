@@ -14,6 +14,13 @@
         <version>2.0.1.RELEASE</version>
     </parent>
 
+    <repositories>
+        <repository>
+            <id>myMavenRepoRead</id>
+            <url>https://mymavenrepo.com/repo/yJ6X94jwPa0KTAkGGJ8d/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>log4j</groupId>
