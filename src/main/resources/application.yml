@@ -1,2 +1,10 @@
 # By default, this configuration can be used directly in production environment
 # Global Application Config
+
+# config datasource
+
+myjack:
+  datasourceConfigs:
+    - {
+      jdbcUrl: "jdbc:mysql://127.0.0.1:3306/database-name"
+    }
