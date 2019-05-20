@@ -16,7 +16,7 @@
 
 package org.mayanjun.myjack.sample;
 
-import org.mayanjun.myjack.mybatis.BasicDAO;
+import org.mayanjun.myjack.dao.BasicDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.Ordered;
 
