@@ -55,6 +55,7 @@ public class MainTest implements ApplicationRunner, ApplicationContextAware {
     private void executeRunner(TestRunner runner) {
         LOG.info(SEP, runner.getOrder(), runner.getClass().getSimpleName());
         LOG.info("Description: {}", runner.description());
+
         long now = System.currentTimeMillis();
         try {
             runner.run();

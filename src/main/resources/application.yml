@@ -6,5 +6,7 @@
 myjack:
   datasourceConfigs:
     - {
-      jdbcUrl: "jdbc:mysql://127.0.0.1:3306/database-name"
+      jdbcUrl: "jdbc:mysql://127.0.0.1:3306/sampledb",
+      username: "root",
+      password: "123456"
     }

@@ -16,8 +16,10 @@
 
 package org.mayanjun.myjack.sample.runner;
 
+import org.mayanjun.myjack.api.enums.QueryDeletedMode;
 import org.mayanjun.myjack.api.query.Query;
 import org.mayanjun.myjack.api.query.QueryBuilder;
+import org.mayanjun.myjack.api.query.SortDirection;
 import org.mayanjun.myjack.sample.AbstractTestRunner;
 import org.mayanjun.myjack.sample.Runner;
 import org.mayanjun.myjack.sample.RunnerConfig;
@@ -42,6 +44,10 @@ public class QueryRunner extends AbstractTestRunner {
                 .andLike("contacts.mobile", "13%")
                 .orLike("contacts.mobile", "15%")
                 .endGroup()
+                .orderBy("name", SortDirection.DESC)
+                .queryDeletedMode(QueryDeletedMode.ONLY_DELETED)
+                .limit(10)
+                .forUpdate()
                 .build();
         List<Student> list = dao.query(query);
         list.forEach(e -> LOG.info("Query: {}", e));
